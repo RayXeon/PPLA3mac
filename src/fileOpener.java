@@ -8,13 +8,13 @@ public class fileOpener{
 		java.io.PrintStream output = new java.io.PrintStream(outFile);
 
 		java.io.File file = new java.io.File(
-			"/Users/rayyeon/Documents/IdeaProjects/PPLAssignment3/preproceeFile.c");
+			"/Users/rayyeon/Documents/IdeaProjects/PPLAssignment3/temp.c");
 		Scanner input = new Scanner(file);
 
 		while(input.hasNext()){
 			String line = input.nextLine();
 			if(line.length() != 0){
-
+				System.out.println("Yes");
 			}
 			output.println(line);
 
